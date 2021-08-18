@@ -1,4 +1,3 @@
-const printName = () => {
-    console.log("Stephanie Opala")
-}
-printName();
+const myName = document.querySelector(".name");
+
+myName.innerHTML = "Stephanie Opala";
